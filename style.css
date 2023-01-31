@@ -1,0 +1,152 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-image: url(./images/background.jpg);
+    background-position: top;
+    background-position: right;
+    
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 100px;
+
+
+}
+
+#head {  
+    font-family: serif;
+    width: 50%;
+}
+
+#head:hover {
+    text-decoration: wavy;
+    text-shadow: #15e022;
+    text-transform: capitalize;
+    will-change: transform;
+    transform: perspective(1000px) rotatey(1.88deg) rotatex(10.23deg) scale3d(1.05, 1.05, 1.05);
+}
+
+            /* this is my first cube style */
+
+.cube,.cube-2,.cube-3 {
+    display: flex;
+    font-weight: 600;
+
+
+}
+
+.cube-red {
+    background-color: #ef0000;
+    color: #e9e8e8;
+    padding: 50px;
+    width: 10%;
+    border: 3px solid #000;
+    border-radius: 3px;
+}
+
+.cube-white {
+    background-color: #ffffff;
+    padding: 50px;
+    width: 10%;
+    border-radius: 0px;
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+.cube-yellow {
+    background-color: #fefe00;
+    padding: 50px;
+    width: 10%;
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+.cube-blue {
+    background-color: #0000f2;
+    color: #e9e8e8;
+    padding: 50px;
+    width: 10%;
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+.cube-aqua {
+    background-color: #8cd0de;
+    color: #0000f2;
+    padding: 50px;
+    width: 10%;
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+.cube-dyellow {
+    background-color: #ffa300;
+    color: #1f1ff3;
+    padding: 50px;
+    width: 10%;
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+.cube-green {
+    background-color: #00d900;
+    color: #e9e8e8;
+    padding: 50px;
+    width: 10%;
+    border: 3px solid #000;
+    border-radius: 7px;
+}
+
+                        /* This is my hover section */
+
+.cube-red:hover {
+    background-color: #d10606;
+    will-change: transform;
+    transform: perspective(1000px) rotatey(1.88deg) rotatex(13.23deg) scale3d(1.05, 1.05, 1.05);
+}
+
+.cube-white:hover {
+    background-color: #e9e8e8;
+    will-change: transform;
+    transform: perspective(1000px) rotatey(1.88deg) rotatex(13.23deg) scale3d(1.05, 1.05, 1.05);
+}
+
+.cube-yellow:hover {
+    background-color: #eaea05;
+    will-change: transform;
+    transform: perspective(1000px) rotatey(1.88deg) rotatex(13.23deg) scale3d(1.05, 1.05, 1.05);
+}
+
+.cube-blue:hover {
+    background-color: #1f1ff3;
+    will-change: transform;
+    transform: perspective(1000px) rotatey(1.88deg) rotatex(13.23deg) scale3d(1.05, 1.05, 1.05);
+}
+
+.cube-aqua:hover {
+    background-color: #5dbccf;
+    will-change: transform;
+    transform: perspective(1000px) rotatey(1.88deg) rotatex(13.23deg) scale3d(1.05, 1.05, 1.05);
+}
+
+.cube-dyellow:hover {
+    background-color: #e4950c;
+    will-change: transform;
+    transform: perspective(1000px) rotatey(1.88deg) rotatex(13.23deg) scale3d(1.05, 1.05, 1.05);
+}
+
+.cube-green:hover {
+    background-color: #16b316;
+    will-change: transform;
+    transform: perspective(1000px) rotatey(1.88deg) rotatex(13.23deg) scale3d(1.05, 1.05, 1.05);
+}
