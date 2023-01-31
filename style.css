@@ -36,7 +36,7 @@ body {
     transform: perspective(1000px) rotatey(1.88deg) rotatex(10.23deg) scale3d(1.05, 1.05, 1.05);
 }
 
-            /* this is my first cube style */
+            /* this is section all cube is my main div child for container div */
 
 .cube,.cube-2,.cube-3 {
     display: flex;
